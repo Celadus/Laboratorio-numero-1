@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 
 }
+
 .container{
     height: 100vh;
     width: 100%;
@@ -53,20 +54,20 @@ h1{
     margin-bottom: 32px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.flexbox-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap
+
 
     
 }
 
-
-.grid-items {
-    background-color: white;
-    padding: 32px;
-    font-size: 14px;
+.flexbox-items{
+    display: flex;
+    justify-items:center;
+    
 }
-
 
 
 footer{
