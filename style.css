@@ -38,6 +38,12 @@ nav ul li a:hover{
     transition: .2s;
 }
  
+nav img{
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
 img{
     padding: 32px 32px;
 }
@@ -73,9 +79,6 @@ footer{
     justify-content:space-between;
     padding: 32px;
 
-    
-    
-
 }
 
 footer ul li{
@@ -87,5 +90,8 @@ footer ul li{
 footer ul li a{
     color: #ffff;
     text-decoration: none;
+}
 
+footer img{
+    padding: 0;
 }
