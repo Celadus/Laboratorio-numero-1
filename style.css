@@ -34,21 +34,90 @@ h1{
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
 }
 
-.content p{
-    padding: 0px 32px 32px
+.content {
+    background-color: white;
+    padding: 32px;
+    font-size: 16px;
+    align-items:flex-end;
 }
 
+.box {
+    width: 280px;
+}
 
+.dx {
+    float: right;
+}
+
+.sx {
+    float:left;
+}
+.box-1 {
+    width: 280px;
+}
+.dx-1 {
+    float: right;
+}
+.sx-1 {
+    float:left;
+}
+
+.box-2 {
+    width: 280px;
+}
+
+.dx-2 {
+    float: right;
+}
+
+.sx-2 {
+    float:left;
+}
+
+.box-3 {
+    width: 280px;
+}
+
+.dx-3 {
+    float: right;
+}
+
+.sx-3 {
+    float:left;
+}
+
+.box-4 {
+    width: 280px;
+}
+
+.dx-4 {
+    float: right;
+}
+
+.sx-4 {
+    float:left;
+}
+
+.box-5 {
+    width: 280px;
+}
+
+.dx-5 {
+    float: right;
+}
+
+.sx-5 {
+    float:left;
+}
 .footerbar {
     display: flex;
     background-color:#212429;
-    justify-content:space-between
+    justify-content:space-between;
 }
 
 .footerbar {
@@ -68,4 +137,5 @@ padding: 32px;
 
 .footerbar img {
     padding: 32px;
+    
 }
