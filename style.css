@@ -19,7 +19,7 @@
 }
 
 .navbar a{
-padding: 8px;
+padding: 16px;
 }
 
  .navbar img {
@@ -37,12 +37,13 @@ h1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 32px;
+    
 }
 
-.content img{
-    padding: 32px;
+.content p{
+    padding: 0px 32px 32px
 }
+
 
 .footerbar {
     display: flex;
