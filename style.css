@@ -1,97 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-
 }
 
-
-.container-footer{
-    width: 100%;
-    background-color:#212429;
-}
-
-nav{
+.navbar {
     display: flex;
+    background-color: #ffff;
+    justify-content:space-between
+}
+
+.navbar {
     align-items: center;
-    justify-content:space-between;
 }
-
-nav{
-    font-size: 16px;
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 8px 16px;
-}
-
-nav ul li a{
+.navbar a {
     color: #212429;
     text-decoration: none;
+}
+
+.navbar a{
+padding: 8px;
+}
+
+ .navbar img {
+    padding: 32px;
+ }
+
+
+h1{
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-bottom: 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.content img{
+    padding: 32px;
+}
+
+.footerbar {
+    display: flex;
+    background-color:#212429;
+    justify-content:space-between
+}
+
+.footerbar {
+    align-items:center;
 
 }
 
-nav ul li a:hover{
-    color: rgb(241, 11, 11);
-    transition: .2s;
-}
- 
-nav img{
-    padding-top: 0;
-    padding-bottom: 0;
+.footerbar a {
+    color: #ffff;
+    text-decoration: none;
     
 }
 
-img{
-    padding: 32px 32px;
+.footerbar a{
+padding: 32px;
 }
 
-h1{
-    margin-top: 32px;
-    margin-left: 32px;
-    margin-bottom: 32px;
-}
-
-.flexbox-container{
+.footerbar img {
     padding: 32px;
-    margin: 32px;
-}
-
-.flexbox-container{
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap 
-}
-
-.flexbox-items{
-    display: flex;
-    justify-items:center;
-
-}
-
-
-footer{
-    background-color:#212429;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding: 32px;
-
-}
-
-footer ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 8px 16px;
-}
-
-footer ul li a{
-    color: #ffff;
-    text-decoration: none;
-}
-
-footer img{
-    padding: 0;
 }
