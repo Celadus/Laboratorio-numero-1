@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     background-color: #ffff;
-    justify-content:space-between
+    justify-content:space-between;
 }
 
 .navbar {
@@ -23,7 +23,7 @@ padding: 16px;
 }
 
  .navbar img {
-    padding: 32px;
+    padding: 16px;
  }
 
 
@@ -121,7 +121,7 @@ h1{
 }
 
 .footerbar {
-    align-items:center;
+    align-items:center
 
 }
 
@@ -139,3 +139,4 @@ padding: 32px;
     padding: 32px;
     
 }
+
