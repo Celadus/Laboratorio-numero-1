@@ -144,25 +144,32 @@ footer {
     display:flex;
     justify-content: space-between;
     align-items:center;
-    padding: 32px 16px;
+    padding: 32px 32px 32px;
     background: #212429;
 }
 
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
 
-.footerbar a {
+footer div a {
     color: white;
+    padding: 16px;
 }
 
-.footerbar li {
-    display:inline-block;
-    padding: 0 32px;
+footer div img {
+    border-radius: 41%;
+    background-color: white;
+    padding: 8px;
 }
 
-.footerbar li a {
+footer a {
     transition: all .3s ease; 
 }
 
-.footerbar a:hover {
+footer a:hover {
     text-decoration:underline;
-    color: white;
+    color:white;
 }
