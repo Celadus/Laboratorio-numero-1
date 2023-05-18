@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+
+body { 
+	max-width: 1280px;            /*massima larghezza della pagina*/
+	margin: 0 auto;               /*tutto centrato in mezzo allo schermo, centrato verticalmente ed orizzontalmente*/
 }
 
 .menu,
@@ -21,6 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 32px 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .menu {
@@ -48,80 +48,58 @@ header {
 }
 
 h1{
-    padding-top: 16px;
     padding-left: 32px;
-    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0 auto;
+    padding: 32px;
+    gap: 32px;
 }
 
 .content {
     background-color: white;
     padding: 32px;
     font-size: 16px;
-    align-items:flex-end;
+    align-items:center;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.box {
+.precios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-0 {
     width: 280px;
 }
 
-.dx {
-    float: right;
-}
 
-.sx {
-    float:left;
-}
+
 .box-1 {
     width: 280px;
-}
-.dx-1 {
-    float: right;
-}
-.sx-1 {
-    float:left;
 }
 
 .box-2 {
     width: 280px;
 }
 
-.dx-2 {
-    float: right;
-}
-
-.sx-2 {
-    float:left;
-}
 
 .box-3 {
     width: 280px;
 }
 
-.dx-3 {
-    float: right;
-}
-
-.sx-3 {
-    float:left;
-}
 
 .box-4 {
     width: 280px;
 }
 
-.dx-4 {
-    float: right;
-}
 
-.sx-4 {
-    float:left;
-}
 
 .box-5 {
     width: 280px;
@@ -130,11 +108,6 @@ h1{
 .dx-5 {
     float: right;
 }
-
-.sx-5 {
-    float:left;
-}
-
 .footerbar {
     list-style: none;
 }
@@ -146,6 +119,7 @@ footer {
     align-items:center;
     padding: 32px 32px 32px;
     background: #212429;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer div {
@@ -159,8 +133,8 @@ footer div a {
     padding: 16px;
 }
 
-footer div img {
-    border-radius: 41%;
+footer div span img {
+    border-radius: 50%;
     background-color: white;
     padding: 8px;
 }

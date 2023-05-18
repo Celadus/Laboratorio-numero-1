@@ -32,46 +32,67 @@
         <h1>NUEVAS COLECCIONES</h1>
             <div class="content">
                 
-                <div class=box>
+                <div class=box-0>
                   <img src="images/image-3.jpg" alt="mujer vierde">
                    <br><br>
-                   <div class="sx">Vestido</div>
-                   <div class="dx"><b>34.99€</b></div>
+                   <div class="precios">
+                    <span>Vestido</span>
+                    <span><b>34.99€</b></span>
+                   </div>
+                   
                 </div>
             
                 <div class=box-1>
                    <img src="images/image-6.jpg" alt="mujer amarilla">
                    <br><br>
-                   <div class="sx">Camisa</div>
-                   <div class="dx"><b>44.99€</b></div>
+                   <div class="precios">
+                    <span>Camisa</span>
+                    <span><b>44.90€</b></span>
+                   </div> 
                 </div>
             
             
                 <div class=box-2>
                    <img src="images/image-4.jpg" alt="mujer blanca">
                    <br><br>
-                   <div class="sx">Vaqueros</div>
-                   <div class="dx"><b>79.99€</b></div>
+                   <div class="precios">
+                    <span>Vaqueros</span>
+                    <span><b>79.99€</b></span>
+                   </div> 
                 </div>
             
             
                 <div class=box-3>
                    <img src="images/image-5.jpg" alt="hombre polo">
                    <br><br>
-                   <div class="sx">Polo</div>
-                   <div class="dx"><b>44.95€</b></div>
+                   <div class="precios">
+                    <span>Polo</span>
+                    <span><b>44.95€</b></span>
+                   </div> 
                 </div>
             
             
                 <div class=box-4>
                    <img src="images/image-1.jpg" alt="hombre camisa">
                    <br><br>
-                   <div class="sx-4">Camisa</div>
-                   <div class="dx-4"><b>25.00€</b></div>
+                   <div class="precios">
+                    <span>Camisa</span>
+                    <span><b>25.00€</b></span>
+                   </div> 
                 </div>
             
             
                 <div class=box-5>
+                <img src="images/image-2.jpg" alt="mujer amarilla">
+                <br><br>
+                <div class="precios">
+                    <span>Camiseta</span>
+                    <span><b>44.99€</b></span>
+                   </div> 
+                </div>
+            </div>
+<!-- modifica sui singoli blocchi del catalogo:
+esempio:    <div class=box-5>
                 <img src="images/image-2.jpg" alt="mujer amarilla">
                 <br><br>
                 <div class="sx-5">Camiseta</div>
@@ -79,10 +100,19 @@
                 </div>
             </div>
 
+            tolti i due :
+            <div class="sx-5">Camiseta</div>
+            <div class="dx-5"><b>44.99€</b></div>
+
+            e sostituiti con: 
+            1 <div class=""> 
+            2 <span>
+
+            su css inserito: .precios-->
 
         <footer>
             <div>
-                <img src="images/icon-truck.svg" alt="entrega">
+                <span><img src="images/icon-truck.svg" alt="entrega"></span>
                 <span><a href="#">Entrega</a></span>
             </div>   
            
@@ -91,14 +121,20 @@
             </div>
        
             <div>
-                <img src="images/icon-phone.svg" alt="phone">
+                <span><img src="images/icon-phone.svg" alt="phone"></span>
                 <span><a href="#">+375(29)749-18-23</a></span>
             </div>
                          
             <div>
-                <img src="images/icon-mail.svg" alt="mail">
+                <span><img src="images/icon-mail.svg" alt="mail"></span>
                 <span><a href="#">shop@omix.com</a></span>   
-            </div>     
+            </div> 
+<!--para que el círculo de las imágenes del footer sean redondas
+en vez de hacer el border-radius a la imágen directamente
+podemos meter la imágen dentro de un span 
+y a ese span si hacerle el border-radius 50% 
+y aplicarle un backgraound-color blanco-->
+            
         </footer>   
             
     </body>
