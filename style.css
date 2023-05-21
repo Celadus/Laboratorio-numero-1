@@ -32,9 +32,6 @@ header {
     padding: 0 16px;
 }
 
-.menu li a {
-    transition: all .3s ease; 
-}
 
 .menu a:hover {
     text-decoration:underline;
@@ -75,42 +72,11 @@ h1{
     justify-content: space-between;
 }
 
-.box-0 {
+.vetrina {
     width: 280px;
+    margin: 32px;
 }
 
-
-
-.box-1 {
-    width: 280px;
-}
-
-.box-2 {
-    width: 280px;
-}
-
-
-.box-3 {
-    width: 280px;
-}
-
-
-.box-4 {
-    width: 280px;
-}
-
-
-
-.box-5 {
-    width: 280px;
-}
-
-.dx-5 {
-    float: right;
-}
-.footerbar {
-    list-style: none;
-}
 
 
 footer {
@@ -122,25 +88,23 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
-footer div {
+
+.footerbar {
     display: flex;
     justify-content: space-between;
     align-items:center;
 }
 
-footer div a {
-    color: white;
-    padding: 16px;
-}
-
-footer div span img {
+.footerbar img {
     border-radius: 50%;
     background-color: white;
     padding: 8px;
 }
 
-footer a {
-    transition: all .3s ease; 
+
+.footerbar a{
+    color: white;
+    padding: 16px;
 }
 
 footer a:hover {
