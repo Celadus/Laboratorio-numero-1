@@ -1,115 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-
-.menu,
-a,
-.corner{
-    font-family: 'Monerrat', sans-serif;
-    font-size: 16px;
-    color: #212429;
-    text-decoration: none;
-    padding: 0px 32px;
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
-header {
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    padding: 32px 16px;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    position: fixed;
+    background-color: #ffff;
+    border-bottom: 1px solid black;
+    padding: 16px;
+    position: sticky;
     top: 0;
-    width: 100%;
+
 }
 
 .menu {
     list-style: none;
 }
-
-.menu li {
-    display:inline-block;
-    padding: 0 16px;
+@media (max-width:920px){
+    nav img {
+        margin: 0 auto;
+    }
+    .menu {
+        display: none;
+    }
+    .corner {
+        display: none;
+    }
 }
 
 
-.menu a:hover {
+.menu li {
+    display:inline-block;
+    padding: 16px;
+}
+
+
+.menu li:hover {
     text-decoration:underline;
     color:black;
 }
 
 .corner img{
-    display: inline-block;
     padding: 16px;
-    
+}
+
+main {
+    margin: 16px;
 }
 
 h1{
-    margin-top: 124px;
-    padding-left: 32px;
-    font-family: 'Montserrat', sans-serif;
+   font-size: 32px;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-}
-
-.content {
     max-width: 1280px;
 	margin: 0 auto;
-    background-color: white;
-    padding: 32px;
-    font-size: 16px;
-    align-items:center;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .precios{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-top: 32px;
+    margin-top: 16px;
+    padding: 16px;
+}
+
+.vetrina img {
+    border-radius: 8px;
 }
 
 .vetrina {
-    width: 280px;
     margin: 32px;
 }
-
 
 
 footer {
     display:flex;
     justify-content: space-between;
-    align-items:center;
-    padding: 32px 32px 32px;
-    background: #212429;
-    font-family: 'Montserrat', sans-serif;
+    padding: 32px;
+    background-color: #212429;
+    color: #ffff;
 }
 
 
 .footerbar {
     display: flex;
-    justify-content: space-between;
     align-items:center;
 }
 
 .footerbar img {
     border-radius: 50%;
-    background-color: white;
-    padding: 8px;
-}
-
-
-.footerbar a{
-    color: white;
+    background-color: #ffff;
     padding: 16px;
+    margin-right: 16px;
 }
 
-footer a:hover {
+footer span:hover {
     text-decoration:underline;
     color:white;
 }
+
+@media (max-width: 920px){
+    footer {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .footerbar {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #ffff;
+    }
+}
+
